@@ -27,6 +27,24 @@ button:hover {
   color: #ffffff;
 }
 
+button:nth-child(1):active {
+  background-color: #00bd00;
+  border: none;
+  box-shadow: 0 0 5px 5px #00bd00;
+}
+
+button:nth-child(2):active {
+  background-color: #0091bd;
+  border: none;
+  box-shadow: 0 0 5px 5px #0091bd;
+}
+
+button:nth-child(3):active {
+  background-color: #ff0000;
+  border: none;
+  box-shadow: 0 0 5px 5px #ff0000;
+}
+
 .stats {
   padding: 0;
   margin: 0;
